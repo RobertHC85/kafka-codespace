@@ -1,10 +1,10 @@
 {
   "name": "Kafka Codespace",
   "dockerComposeFile": "docker-compose.yml",
-  "service": "kafka",
-  "workspaceFolder": "/workspaces/kafka-codespace",
+  "service": "dev",
+  "workspaceFolder": "/workspace",
   "extensions": [
     "ms-azuretools.vscode-docker"
   ],
-  "postCreateCommand": "sleep 10"
+  "postCreateCommand": "sleep 5"
 }
