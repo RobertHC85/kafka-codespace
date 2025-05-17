@@ -22,3 +22,10 @@ services:
       - ALLOW_PLAINTEXT_LISTENER=yes
     depends_on:
       - zookeeper
+
+  dev:
+    image: ubuntu
+    command: sleep infinity
+    volumes:
+      - ..:/workspace:cached
+    tty: true
