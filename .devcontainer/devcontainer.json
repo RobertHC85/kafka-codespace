@@ -2,7 +2,7 @@
   "name": "Kafka Codespace",
   "dockerComposeFile": "docker-compose.yml",
   "service": "kafka",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspaces/kafka-codespace",
   "extensions": [
     "ms-azuretools.vscode-docker"
   ],
