@@ -1,6 +1,6 @@
 {
   "name": "Kafka Codespace",
-  "dockerComposeFile": "../docker-compose.yml",
+  "dockerComposeFile": "docker-compose.yml",
   "service": "kafka",
   "workspaceFolder": "/workspace",
   "extensions": [
